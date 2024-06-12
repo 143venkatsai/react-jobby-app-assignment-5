@@ -1,0 +1,117 @@
+.similar-job-item {
+  background-color: #272727;
+  margin-right: auto;
+  margin-left: 0px;
+  padding: 20px 30px;
+  border-radius: 20px;
+  width: 31%;
+}
+
+.similar-job-top-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.similar-job-logo {
+  height: 70px;
+  width: 70px;
+  margin-right: 15px;
+}
+
+.similar-job-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.similar-rating-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.similar-star {
+  height: 20px;
+  width: 20px;
+  margin-right: 6px;
+}
+
+.similar-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.similar-job-description-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.similar-job-description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.similar-job-location-type-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.location-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.similar-job-location-icon {
+  color: #ffffff;
+  font-size: 25px;
+  margin-right: 6px;
+}
+
+.similar-job-location {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.similar-job-type-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.similar-job-icon {
+  color: #ffffff;
+  font-size: 25px;
+  margin-right: 6px;
+}
+
+.similar-job-type {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .similar-job-item {
+    padding: 20px 15px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .similar-job-description-heading {
+    font-weight: 400;
+    font-size: 22px;
+  }
+}

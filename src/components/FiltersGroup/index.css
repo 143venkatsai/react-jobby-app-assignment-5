@@ -1,0 +1,49 @@
+.employment-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+.employments-list {
+  padding-left: 0px;
+  margin-top: 20px;
+}
+
+.employment-item {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.label {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-left: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.salary-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+.salaries-list {
+  padding-left: 0px;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.salary-item {
+  margin-bottom: 10px;
+}
+
+.input-element {
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,158 @@
+.job-item {
+  list-style-type: none;
+  background-color: #272727;
+  padding: 0px 25px;
+  border-radius: 18px;
+  margin-bottom: 25px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.job-logo-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.company-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.company-name-section {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.rating-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.job-middle-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-type-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.location-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.location-icon {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.location {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.job-type-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.job-icon {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.job-type {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.package {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.horizontal-line {
+  background-color: #b6c5ff;
+  width: 100%;
+  margin-top: 0px;
+  outline: none;
+}
+
+.description-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.description {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.link-details {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .job-item {
+    padding: 10px 15px;
+  }
+
+  .location-section {
+    margin-right: 15px;
+  }
+
+  .location {
+    margin-left: 4px;
+  }
+
+  .job-type {
+    margin-left: 4px;
+  }
+
+  .package {
+    font-weight: normal;
+  }
+}
